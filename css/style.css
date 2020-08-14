@@ -3,6 +3,7 @@ body {
   line-height: 1.7;
   color: gray;
   font-weight: 400;
+  overflow-x: hidden;
   font-size: 1rem; }
 
 ::-moz-selection {
@@ -128,6 +129,7 @@ h1, h2, h3, h4, h5,
     .site-section {
       padding: 5em 0; } }
   .site-section.site-section-sm {
+  
     padding: 4em 0; }
 
 .site-section-heading {
@@ -613,7 +615,8 @@ h1, h2, h3, h4, h5,
   .site-blocks-cover h1 {
     font-size: 3.5rem;
     font-weight: 400;
-    color: #000;
+    /* color: #000; */
+    color: white;
     font-weight: 900; }
     @media (max-width: 991.98px) {
       .site-blocks-cover h1 {
@@ -1268,7 +1271,7 @@ h1, h2, h3, h4, h5,
       -webkit-box-shadow: 0 4px 20px -5px rgba(66, 133, 244, 0.4);
       box-shadow: 0 4px 20px -5px rgba(66, 133, 244, 0.4); }
       .unit-4 .unit-4-icon .icon-wrap span {
-        font-size: 2rem;
+        font-size: 40px;
         position: absolute;
         top: 50%;
         color: #fff !important;
@@ -1415,7 +1418,13 @@ h1, h2, h3, h4, h5,
   .testimonial figure img {
     max-width: 100px;
     margin: 0 auto;
-    border-radius: 50%; }
+    border-radius: 50%; 
+  }
+  .testimonial1 figure img {
+    max-width: 50%;
+    margin: 0 auto;
+    /* border-radius: 50%;  */
+  }
 
 .breadcrumb-custom {
   font-size: 1rem !important; }
@@ -1977,3 +1986,67 @@ h1, h2, h3, h4, h5,
   background-color: #4285f4 !important;
   border-color: #4285f4 !important;
   color: #fff; }
+
+  /* style */
+.img-width{
+  width:100%;
+}
+.works{
+  color: black;
+  text-align: center;
+}
+.contact{
+  color: white;
+  font-size: larger;
+}
+.robot{
+  padding-top: 20px;
+}
+.aligntext{
+  text-align: justify;
+  text-align-last: center;
+}
+.projectalign{
+  text-align: justify;
+}
+.contactalign{
+  text-align: center;
+}
+.bg-footer{
+background-color: gainsboro;
+}
+.footer-font{
+  font-size: 30px;
+}
+.service{
+  list-style-type: none;
+  padding-left: 0px;
+}
+.serviceheight{
+  height:50%
+}
+.servicevision{
+  padding-top: 100px
+}
+.imgewidth
+{
+  width:150px;
+}
+.serviceemotion{
+  padding-top:30px;
+}
+.site-color{
+  /* background-color: #f1f1f1; */
+  background-color: black;
+}
+.index{
+  z-index: 2;
+}
+@media(max-width:600px){
+.get-btn{
+  margin-left: 80px;
+}
+  .image2 {
+      display: none !important; 
+  }
+}
