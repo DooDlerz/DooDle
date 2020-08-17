@@ -1793,9 +1793,9 @@ h1, h2, h3, h4, h5,
   font-size: 40px;
   font-weight: 900; }
   @media (max-width: 991.98px) {
-    .aligntext{
+    /* .aligntext{
       font-size: 25px;
-    }
+    } */
     .get-btn{
       font-size: 19px;
     }
@@ -2054,10 +2054,13 @@ background-color: gainsboro;
 .paragraphcolor{
   color:black;
 }
-@media(min-width:600px){
-.get-btn{
-  margin-left: 80px;
+.image2{
+  width:70%;
 }
+@media(max-width:768px){
+/* .get-btn{
+  margin-left: 80px;
+} */
   .image2 {
       display: none !important; 
   }
@@ -2067,8 +2070,15 @@ background-color: gainsboro;
     font-size: 20px;
   } */
 /* } */
-@media (max-width: 768px){
-.projectalign{
+ @media (max-width: 768px){
+  .servicevision {
+    padding-top: 0px;
+  }
+  .site-section {
+    padding: 2em 0;
+  }
+}
+/* .projectalign{
   font-size: 27px;
 }
 .learnsize{
@@ -2083,4 +2093,4 @@ label{
 .servicevision{
   padding-top:0px
 }
-}
+}  */
